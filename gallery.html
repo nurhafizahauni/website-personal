@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Media Gallery</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+    <div class="header">
+        <nav class="navbar">
+            <img src="images/uitmlogo.jpg">
+        <p style="text-align: right; top: 0;">
+        <a href="index.html">Home</a>
+        <a href="biodata.html">About Me</a>
+        <a href="education.html">My Education</a>
+        <a href="experience.html">My Experience</a>
+        <a href="gallery.html">My Gallery</a>
+        <a href="contact.html">Contact Me</a>
+    </p>
+    </nav>
+    </div>
+        <style>
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 20px;
+                border: #000000;
+            }
+    
+            .gallery-item {
+                position: relative;
+            }
+    
+            .gallery-item img {
+                display: block;
+                width: 80%;
+                height: auto;
+                border-radius: 10px;
+        
+            }
+    
+            .gallery-item .caption {
+                position: center;
+                bottom: 0;
+                left: 0;
+                width: 72%;
+                background-color: rgb(245, 243, 243);
+                color: #000000;
+                padding: 20px;
+                font-size: 20px;
+            }
+
+        </style>
+    
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/img1.jpg" alt="">
+                <div class="caption">TAR's Dinner!</div>
+            </div>
+
+           <div class="gallery-item">
+                <img src="images/img2.jpg" alt="">
+                <div class="caption">HR w them<3</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/img3.jpg" alt="">
+                <div class="caption">matric g'mates!</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/img4.JPG" alt="">
+                <div class="caption">melur > w them!</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/img5.jpg" alt="">
+                <div class="caption">ena's day!</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/img6.jpg" alt="">
+                <div class="caption">siblings<3</div>
+            </div>
+        </div>
+    
+
+  
+    
+    </body>
+</html>
